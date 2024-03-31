@@ -1,0 +1,92 @@
+body{
+    background-color: #F5F5F5;
+}
+.main{
+    margin: 100px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 5px gainsboro;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    
+}
+.main h1{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: #5941A9;
+}
+.login_img img{
+    border-radius: 10px;
+}
+.login_form{
+    margin-left: 150px;
+}
+.user{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.user i{
+    font-size: 20px;
+    color: #5941A9;
+}
+.user input{
+    margin-left: 15px;
+    border-bottom: 2px solid #5941A9;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: border 0.3s;
+
+}
+
+.password{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.password i{
+    font-size: 20px;
+    color: #5941A9;
+}
+.password input{
+    margin-left: 15px;
+    border-bottom: 2px solid #5941A9;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: border 0.3s;
+
+}
+.login_form button{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: #5941A9;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.login_form p{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+@media (max-width:575px){
+    .main{
+        grid-template-columns: 100%;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 8px 5px gainsboro;
+        width: 100%;
+        background-color: white;
+        padding-right: 10px;
+    }
+    .login_form{
+        margin: 0;
+    }
+    .login_img img{
+        width: 90%;
+    }
+}
